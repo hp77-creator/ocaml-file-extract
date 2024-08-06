@@ -1,0 +1,4 @@
+sq: RV128 only, not RV64 nor RV32
+lr (? Figure A.13, part 2)
+
+jalr: broken 2 times

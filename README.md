@@ -12,8 +12,13 @@ Concepts that I learned while doing this:
 To compile this project, you will need to have OCaML installed.
 
 If its present in your system then you can simply do
-```
+```sh
 ocamlc -I +str str.cma file.ml
+```
+
+To see it in action, you can then do
+```sh
+./a.out sample.txt
 ```
 
 used `+str` to get rid of `Unbound module` error for `Str`.
